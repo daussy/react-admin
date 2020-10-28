@@ -1,0 +1,27 @@
+.form-wrap{
+    display: flex; //基于css3的弹性模式
+    width: 300px;
+    height: 100vh; //基于屏幕的高度
+    margin: auto;
+    // background-color: aliceblue;
+    align-items: center; //垂直居中
+}
+
+.form-header{
+    width: 300px;
+    height: 56px;
+    line-height: 56px;
+    color: aliceblue;
+    .column{
+        margin: 0 !important; 
+        color: aliceblue;
+        float: left;
+        font-size:16px ;
+    }
+    span{
+        float: right;
+        font-size: 10px;
+        opacity: .3;
+
+    }
+}

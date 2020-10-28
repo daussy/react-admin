@@ -1,0 +1,11 @@
+@import './sassConfig.scss';
+@import './normalize.scss';
+//normalize 重置浏览器样式
+//要记得加分号，不然会报错
+//放全局性公共的样式
+//该文件被载入到全局
+
+
+body{
+    background-color: #001529 !important; //权重最高级别，任何东西没法覆盖
+}
